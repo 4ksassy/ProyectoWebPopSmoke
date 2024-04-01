@@ -1,0 +1,129 @@
+/* Estilos CSS GENERALES */
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: black;
+    max-width: 100%;
+}
+header {
+    font-family: FoughtKnight X;
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex; 
+    margin-left: -20px; 
+}
+nav ul li {
+    margin: 5px;
+    margin-right: 40px;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+}
+
+.logo {
+    width: 100px; 
+    margin-right: 500px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+h2 {
+    font-family: Fear Robot;
+}
+
+/* Estilos para la sección de horario */
+#horario {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(59, 10, 82);
+    color: white;
+}
+
+/* Estilos para la tabla de horario */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: rgb(59, 10, 82);
+}
+
+/* Estilos para la sección de formas de contacto */
+#formas-contacto {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(59, 10, 82);
+    border-radius: 10px;
+    color: white;
+}
+
+.contacto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Estilos para la sección de ubicación */
+#ubicacion {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(59, 10, 82);
+    color: white;
+    border-radius: 10px;
+}
+
+/* Estilos para la sección de redes sociales */
+#redes-sociales {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(59, 10, 82);
+    color: white;
+}
+
+.redes {
+    display: flex;
+    gap: 20px;
+}
+
+.redes a {
+    color: black;
+}
+
+.redes a:hover {
+    color: #000;
+}
+/* FOOTER Y CONDICIONES LEGALES*/
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 99%;
+    position: relative;
+    clear: both;
+}

@@ -1,0 +1,177 @@
+/* Estilos CSS GENERALES */
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: black;
+    max-width: 100%;
+}
+header {
+    font-family: FoughtKnight X;
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex; 
+    margin-left: -20px; 
+}
+nav ul li {
+    margin: 5px;
+    margin-right: 40px;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+}
+
+.logo {
+    width: 100px; 
+    margin-right: 500px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+/* ÚLTIMO ALBUM INICIO */
+.informacion-album {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+}
+.portada-album {
+    width: 300px;
+    margin-right: 20px;
+}
+.informacion-album a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(59, 10, 82);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#ultimo-album{
+    background-color: rgb(59, 10, 82);
+}
+
+/* GALERIA ALBUMES INICIO */
+#galeria-fotos {
+    background-color: rgb(59, 10, 82);
+    color: white;
+}
+
+.galeria-albumes {
+    color: white;
+    display: flex;
+    background-color: black;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px;
+    padding: 35px; 
+    border-radius: 10px;
+}
+
+.foto-album {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.foto-album:hover {
+    transform: scale(1.1);
+}
+
+/* VIDEO INICIO*/
+.video-wrapper {
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.video-wrapper video {
+    max-width: 80%; 
+    height: 375px; 
+}
+
+#videoclip {
+    background-color: rgb(59, 10, 82);
+    color: white;
+}
+
+/* FONT PARA LOS TITULOS H2*/
+h2 {
+    font-family: Fear Robot;
+}
+
+/* ROPA NUEVA INICIO*/
+#merchandising {
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(59, 10, 82);
+    color: white;
+}
+
+.galeria-merch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}
+
+.galeria-merch img {
+    width: 500px;
+    height: auto;
+    margin: 10px;
+}
+
+.btn-comprar {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-comprar:hover {
+    background-color: black;
+}
+
+/* FOOTER Y CONDICIONES LEGALES*/
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 99%;
+    position: relative;
+    clear: both;
+}

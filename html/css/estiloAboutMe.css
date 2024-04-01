@@ -1,0 +1,145 @@
+/* Estilos CSS GENERALES */
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: black;
+    max-width: 100%;
+}
+header {
+    font-family: FoughtKnight X;
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex; 
+    margin-left: -20px; 
+}
+nav ul li {
+    margin: 5px;
+    margin-right: 40px;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+}
+
+.logo {
+    width: 100px; 
+    margin-right: 500px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+h2 {
+    font-family: Fear Robot;
+}
+
+/* BIOGRAFIA */
+#entrada {
+    background-color: rgb(59, 10, 82);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.biografia {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 50px;
+    font-size: 18px;
+
+}
+
+.foto-entrada{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Estilos para los momentos clave */
+#momentos-clave {
+    padding: 50px 0;
+    background-color: rgb(59, 10, 82);
+    text-align: center;
+}
+
+#momentos-clave h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.momentos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.momento {
+    margin: 20px;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    max-width: 300px;
+    color: white;
+}
+
+.momento:hover {
+    transform: translateY(-10px);
+}
+
+.momento img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.momento .descripcion {
+    margin-top: 20px;
+}
+
+.momento h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.momento p {
+    font-size: 16px;
+    color: white
+}
+
+/* RECUERDO DEP*/
+
+#recuerdo {
+    background-color: rgb(59, 10, 82);
+    text-align: center;
+    height: 70px;
+}
+
+/* FOOTER Y CONDICIONES LEGALES*/
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 99%;
+    position: relative;
+    clear: both;
+}
